@@ -19,5 +19,18 @@ let isLoggedIn: boolean =false;
 
 console.log(isLoggedIn.valueOf);
 
+// any : TypeScript also has a special type, any, that you can use whenever you don’t want a particular value to cause typechecking errors
+
+let token:any;
+
+token=231;
+// token="Ashish"; it will also work bcz of any keyword
+
+console.log(token);
+
+
+
+
+
 
 export {} // helps us to get the error of redefine the block
