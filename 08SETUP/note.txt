@@ -1,0 +1,8 @@
+we need to run the command to install the tsconfig.json file for the configuration or setup for our project.
+
+command --> `tsc --init`
+
+
+
+to run the file index.ts which will convert to index.js we need to run the below command:
+command --> `tsc -W`  W means in Watch Mode 
